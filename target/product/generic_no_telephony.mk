@@ -30,6 +30,13 @@ PRODUCT_PACKAGES := \
     EasterEgg \
     WallpaperCropper
 
+# Embed SuperUser
+SUPERUSER_EMBEDDED := true
+
+PRODUCT_PACKAGES += \
+    Superuser \
+    su
+
 PRODUCT_PACKAGES += \
     clatd \
     clatd.conf \
